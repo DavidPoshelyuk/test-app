@@ -1,0 +1,30 @@
+
+.wrapperLogin{
+    background-color: #ffffff;
+    min-width: 90%;
+    min-height: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.items{
+    border: 1px solid #797373;
+    min-width: 20%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e7e8ec;
+    border-radius: 8px;
+}
+
+
+.items h1{
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue', Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}

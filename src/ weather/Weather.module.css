@@ -1,0 +1,60 @@
+.wrapperWeather{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+.selectItems{
+    border: 1px solid #797373;
+    min-width: 220px;
+    background-color: #e7e8ec;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.wrapperContent{
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.contentItems{
+    border: 1px solid #797373;
+    display: flex;
+    min-width: 300px;
+    border-radius: 8px;
+    background-color: #e7e8ec;
+    flex-direction: column;
+    padding: 5px;
+}
+.wrapperSelect{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+}
+.preloader{
+    width: 300px;
+}
+.contentItems span{
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue', Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    background-color: white;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    border: #797373 1px solid;
+}
+.contentItems h2{
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue', Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}
